@@ -1,0 +1,10 @@
+# Não enviar para a Vercel (são só desenvolvimento local / arquivos privados)
+.git
+node_modules
+server.js
+build.js
+dev/
+*.md
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm

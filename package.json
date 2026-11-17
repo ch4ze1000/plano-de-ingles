@@ -1,0 +1,14 @@
+{
+  "name": "english-quest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roteiro interativo A2 -> B2 com login (local e Vercel)",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.1",
+    "jsdom": "^31.0.0"
+  }
+}
